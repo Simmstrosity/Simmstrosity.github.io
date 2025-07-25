@@ -37,7 +37,6 @@
 
   // Function to change the background color and font at very short intervals
   setInterval(function() {
-    document.body.style.backgroundColor = getRandomPrimaryColor();
     const spinningText = document.getElementById('spinningText');
     const fontFamilies = ['Arial', 'Times New Roman', 'Courier New', 'Georgia'];
     spinningText.style.fontFamily = fontFamilies[Math.floor(Math.random() * fontFamilies.length)];
